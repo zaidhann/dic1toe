@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Pano2VR project file  -->
+<pano2vrconfig version="6.1.14" rev="18105">
+  <panorama>
+    <id>node1</id>
+    <input>
+      <patch/>
+      <type>auto</type>
+      <filename>IMG-20250210-WA0036.jpg</filename>
+      <videotype>equi</videotype>
+      <levelpitch>0</levelpitch>
+      <levelroll>0</levelroll>
+    </input>
+    <viewingparameter>
+      <pan/>
+      <tilt/>
+      <fov/>
+      <flyinstart/>
+      <pannorth>0</pannorth>
+    </viewingparameter>
+    <userdata>
+      <capturedatetime>2025-02-10T00:29:05</capturedatetime>
+      <tags>masjid agung</tags>
+    </userdata>
+    <floorplans/>
+    <hotspots/>
+    <output>
+      <htmlcss>
+        <html>
+          <enabled>1</enabled>
+          <filename>output/index.html</filename>
+          <values>
+            <value id="css"></value>
+            <value id="fitcover">false</value>
+            <value id="gginfo">false</value>
+            <value id="htmltitle">$(upt)</value>
+            <value id="jsxml">false</value>
+            <value id="parseanchor">false</value>
+          </values>
+        </html>
+        <facequality/>
+        <transition>
+          <zoomafterinfov>90</zoomafterinfov>
+          <zoomafteroutfov>20</zoomafteroutfov>
+        </transition>
+        <autorotate/>
+        <soundstransition/>
+        <flyintransition/>
+        <hotspottext/>
+        <hotspotstyle/>
+        <webvr/>
+        <tilesize>1040</tilesize>
+        <filename>output/pano.xml</filename>
+        <skinfile>silhouette_v6_new.ggsk</skinfile>
+        <skinconfiguration>
+          <value id="opt_autorotate">false</value>
+          <value id="opt_gyro">false</value>
+          <value id="opt_projection">false</value>
+        </skinconfiguration>
+        <skintablesconfiguration/>
+        <skincolorsconfiguration>
+          <value id="Button/Hotspot Background">4278190080</value>
+          <value id="Button/Hotspot Foreground">4294967295</value>
+          <value id="Screen Tint">1677721600</value>
+          <value id="Scrollbar Background">1677721600</value>
+          <value id="Scrollbar Foreground">4278190080</value>
+          <value id="Thumbnail Active Border">4290822336</value>
+          <value id="Thumbnail Border">4278190080</value>
+          <value id="Tooltip Text Background">838860800</value>
+          <value id="Tooltip Text Foreground">4294967295</value>
+        </skincolorsconfiguration>
+      </htmlcss>
+    </output>
+    <streetview/>
+    <streetviewproject/>
+    <sounds>
+      <sound>
+        <position>
+          <pan>-338.59</pan>
+          <tilt>1.38</tilt>
+        </position>
+        <videorect/>
+        <type>audio</type>
+        <id>Element01</id>
+        <filename>../audio/masjid agung.mp3</filename>
+        <mode>2</mode>
+        <nodechangekeep>0</nodechangekeep>
+        <locked>0</locked>
+        <pansize>10</pansize>
+        <tiltsize>10</tiltsize>
+        <fieldsize>90</fieldsize>
+        <ambientlevel>0</ambientlevel>
+        <startmutedmobile>0</startmutedmobile>
+        <level>1</level>
+        <loop>1</loop>
+        <copyfile>1</copyfile>
+      </sound>
+      <sound>
+        <position>
+          <pan>-330.87</pan>
+          <tilt>-15.14</tilt>
+        </position>
+        <videorect/>
+        <type>audio</type>
+        <id>Element02</id>
+        <filename>../audio/music masjid agung.mp3</filename>
+        <mode>2</mode>
+        <nodechangekeep>1</nodechangekeep>
+        <locked>0</locked>
+        <pansize>10</pansize>
+        <tiltsize>10</tiltsize>
+        <fieldsize>90</fieldsize>
+        <ambientlevel>0</ambientlevel>
+        <startmutedmobile>0</startmutedmobile>
+        <level>0.6</level>
+        <loop>0</loop>
+        <copyfile>1</copyfile>
+      </sound>
+    </sounds>
+    <animation>
+      <title>Animation01</title>
+    </animation>
+  </panorama>
+</pano2vrconfig>

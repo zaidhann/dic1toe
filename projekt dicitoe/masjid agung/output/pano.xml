@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<panorama appversion="6.1.14" apprev="18105" id="node1">
+  <input levelbiashidpi="1.000" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1040" levelingpitch="0" overlap="1" height="1040" levelingroll="0" levelbias="0.400" leveltilesize="510">
+    <level width="1040" predecode="0" height="1040" preload="0"/>
+    <level width="520" predecode="0" height="520" preload="0"/>
+    <level width="260" predecode="1" height="260" preload="1"/>
+    <preview color="0x808080" strip="1"/>
+  </input>
+  <view fovmode="0" pannorth="0">
+    <start tilt="0" projection="4" pan="0" fov="70"/>
+    <flyin tilt="-90" projection="9" pan="0" fov="170"/>
+    <min tilt="-90" fovpixel="2" pan="0"/>
+    <max fovstereographic="270" fovfisheye="360" tilt="90" pan="360" scaletofit="1" fov="120"/>
+  </view>
+  <userdata author="" source="" tags="masjid agung" comment="" nodeid="node1" description="" heading="0" customnodeid="" copyright="" longitude="" title="" info="" latitude="" datetime=""/>
+  <hotspots wordwrap="1" width="180" height="20">
+    <label wordwrap="1" border="1" textalpha="1" width="180" textcolor="0x000000" backgroundalpha="1" background="1" bordercolor="0x000000" enabled="1" height="20" backgroundcolor="0xffffff" borderalpha="1" borderradius="1"/>
+    <polystyle mode="0" handcursor="1" backgroundalpha="0.25098" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1"/>
+  </hotspots>
+  <media>
+    <sound pansize="10.000" mode="2" tilt="1.380" level="1.000" tiltsize="10.000" pan="-338.590" nodechangekeep="0" id="Element01" loop="1" ambientlevel="0.000" startmutedmobile="0" field="90.000">
+      <source url="media/masjid agung.mp3"/>
+    </sound>
+    <sound pansize="10.000" mode="2" tilt="-15.140" level="0.600" tiltsize="10.000" pan="-330.870" nodechangekeep="1" id="Element02" loop="0" ambientlevel="0.000" startmutedmobile="0" field="90.000">
+      <source url="media/music masjid agung.mp3"/>
+    </sound>
+  </media>
+  <transition zoomspeed="2" zoomin="0" zoomfov="20" blendtime="1" zoomafteroutfov="20" zoomafterinfov="90" zoomoutpause="1" enabled="1" softedge="0" zoomout="0" blendcolor="0x000000" type="crossdissolve"/>
+  <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+  <control simulatemass="1" lockedwheel="0" invertwheel="0" lockedkeyboard="0" speedwheel="1" contextprojections="0" lockedmouse="0" contextfullscreen="1" contextvr="1" hideabout="0" invertcontrol="1" sensitivity="8" rubberband="0" dblclickfullscreen="0" lockedkeyboardzoom="0"/>
+</panorama>
